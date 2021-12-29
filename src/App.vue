@@ -11,6 +11,11 @@
       />
     </router-link>
     <router-view />
+    <footer>
+      <a href="https://github.com/Jellfedora/Skeleton-Vuejs3-Router-Vuex">
+        <font-awesome-icon :icon="['fab', 'github']" />
+      </a>
+    </footer>
   </div>
 </template>
 
