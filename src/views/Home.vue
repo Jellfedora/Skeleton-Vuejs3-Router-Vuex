@@ -1,10 +1,9 @@
 <template>
-  <h1 class="test">Hello Vue 3 + Vite</h1>
-  <img
-    alt="Vue logo"
-    src="../assets/logo.png"
-  />
-  <p>Petit message de Vuex: {{storeState}}</p>
+  <div class='home'>
+    <h2>Home</h2>
+    <p class="blink">Message de Vuex: {{storeState}}</p>
+    <router-link to="/about">Voir la seconde page</router-link>
+  </div>
 </template>
 
 <script>

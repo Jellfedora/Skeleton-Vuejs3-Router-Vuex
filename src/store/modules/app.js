@@ -2,7 +2,7 @@
 
 export default {
     state: {
-        test: 'Coucou tu veut voir ma ****'
+        test: 'Coucou c\'est moi le store !'
     },
     getters: {
         getTest: (state) => () => {
